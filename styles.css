@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(//PetStory-online/fonts/Roboto-Regular.ttf);
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    width: 1600px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: auto;  
+    background-color: #000000;
+    backdrop-filter: blur(2px);
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.headerLogo{
+    margin-left: 220px;
+    margin-right: 68px;
+    color: #FFFFFF;
+}
+
+.menuMainPage{
+    width: 472px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.menuMainPage > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+
+.menuMainPage > a:hover{
+    color: #F9804B;
+}
+
+.designBy{
+    margin-left: 300px;
+    margin-right: 220px;
+}
+
+.firstPage{
+background-image: url("pictures/Giant Panda.jpg");
+height: 780px;
+width: auto;
+}
+
+
+.firstPageOrange{
+    position: relative;
+    margin-top: 92px;
+    margin-left: 807px;
+    width: 465px;
+    height: 465px;
+}
+
+.orangeSircle{
+position: absolute;
+margin-top: 92px;
+}
+
+.pageTitle{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin-top: 94px;
+    margin-left: 65px;
+    }
+
+.watchYourAnimal{
+    display: inline-block;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+}
+
+.yellow{
+    color: #FFEE2E;
+}
+
+.button{
+position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 332px);
+top: 626px;
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+border-color: #F9804B;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.button:hover{
+    background: #E47209;
+}
+
+.button:active{
+    background: #4B9200;
+}
+
+.button:disabled{
+    background: #767474;
+}
