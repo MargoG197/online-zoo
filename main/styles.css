@@ -1,0 +1,490 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(//PetStory-online/fonts/Roboto-Regular.ttf);
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    color: #333B41;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    width: 1600px;
+    max-width: 1600px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+}
+
+.header{
+    width: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    width: auto;  
+    background-color: #000000;
+    backdrop-filter: blur(2px);
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.headerLogo{
+    margin-left: 220px;
+    margin-right: 68px;
+    color: #FFFFFF;
+}
+
+.menuMainPage{
+    width: 472px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.menuMainPage > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+
+.menuMainPage > a:hover{
+    color: #F9804B;
+}
+
+.designBy{
+    text-decoration: none;
+    color: #FFFFFF;
+    position: absolute;
+    margin-left: 1250px;
+   
+}
+
+.designBy:hover{
+    color: none;
+  }
+
+.firstPage{
+background-image: url("../images/Giant Panda.jpg");
+height: 780px;
+width: auto;
+}
+
+
+.firstPageOrange{
+    position: relative;
+    margin-top: 92px;
+    margin-left: 807px;
+    width: 465px;
+    height: 465px;
+}
+
+.orangeSircle{
+position: absolute;
+margin-top: 92px;
+}
+
+.pageTitle{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin-top: 54px;
+    margin-left: 880px;
+    }
+
+.watchYourAnimal{
+    display: inline-block;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    text-align: center;
+}
+
+.yellow{
+    color: #FFEE2E;
+}
+
+.button{
+position: absolute;
+width: 298px;
+height: 54px;
+left: calc(50% - 298px/2 + 332px);
+background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+border-radius: 25px;
+border-color: #F9804B;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.button_p1{
+    margin-top: 626px;
+}
+
+.button:hover{
+    transition: 1s ease-in-out .5s;
+    background: #E47209;
+    cursor: pointer;
+}
+
+.button:active{
+    transition: 1s ease-in-out .5s;
+    background: #4B9200;
+}
+
+.button:disabled{
+    background: #767474;
+}
+
+/* second page styles */
+
+
+.secondPage{
+    height: 1829px;
+    position: relative;
+}
+
+.flower_p2{
+    position: absolute;
+    margin-left: 1232px;
+    margin-top: 1554px;
+}
+
+.palm_p2{
+    position: absolute;
+    margin-top: 1369px;
+    margin-left: 0px;
+}
+
+.flower_2_p2{
+    position: absolute;
+    margin-left: 1400px;
+    margin-top: -120px;
+}
+
+.theBackstageInfo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1161px;
+    height: 403px;
+    margin-top: 140px;
+    margin-left: 219px;
+  
+}
+.howItWorks{
+    max-width: 465px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 403px;
+}
+.howItWorks > h2 {
+font-size: 48px;
+line-height: 57px;
+font-weight: 400;
+margin: 0;
+}
+
+
+.howItWorks > h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.howItWorks > p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.chooseFavoriteAnimal{
+    position: relative;
+    width: 1158px;
+    height: 872px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 180px;
+    margin-left: 220px;
+}
+.p2_foto-card{
+height: 426px;
+width: 366px;
+}
+
+.button_p2{
+    position: absolute;
+    margin-left: -325px;
+    margin-top: 1090px;
+}
+
+/* styles for page 3 */
+
+.thirdPage{
+    height: 1004px;
+    background-image: url("../images/p3_section4_pick-and-feed.jpg");
+    position: relative;
+}
+
+.pick_feed_friend{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 1160px;
+    height: 735px;
+    margin-top: 69px;
+    margin-left: 220px;
+    background-color: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+
+.pick_friend_title{
+    color: #FE9013;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.pick_friend_text{
+    display: block;
+    padding-left:99px;
+}
+
+.pick_friend_title2{
+   font-size: 24px;
+   line-height: 29px;
+   font-weight: 400;
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+p.covid_i{
+   font-weight: 500;
+}
+
+.underline{
+text-decoration: underline;
+color: #333B41;
+text-decoration-color: #FE9013;
+text-underline-offset: 6px;
+}
+
+.p3_how_it_works_title{
+    font-weight: 400;
+    font-size: 36px;
+    margin-left: 475px;
+   }
+
+.how_it_works_pic{
+    margin-top: 40px;
+    margin-left: 198px;
+    display: flex;
+    width: 764px;
+    height: 168px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow{
+    margin-bottom: 60px;
+}
+
+.button_p3{
+    margin-left: -330px;
+    margin-top: 650px;
+}
+
+/* forth page styles */ /* forth page styles */ /* forth page styles */ /* forth page styles */
+
+.forthPage{
+    height: 919px;
+    max-height: 919px;
+    position: relative;
+    }
+
+.flower_1_p4{
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 1353px;
+}
+
+.testTitle{
+    font-size: 36px;
+    margin-left: 697px;
+    margin-top: 140px;
+}
+
+.feedbacks{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 1272px;
+    margin-left: 220px;
+    margin-top: 47px;
+}
+
+
+.feedback{
+    box-sizing: border-box;
+    background-color: #F5F7F6;
+    border-radius: 20px;
+    width: 266px;
+    height: 391px;
+    left: calc(50% - 293px/2 - 323.5px);
+    top: 77px;
+    border: linear-gradient(#FEBDAB 74% #F3A9F8 66% #E0D8F0 100% #EAF7FE 100% #EAF7FE 100%);
+    
+}
+
+.feedback > p{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.customerData{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-left: 16px;
+    flex-wrap: wrap;
+}
+
+.customer{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.customer > *{
+    margin: 0;
+}
+
+.customer > p{
+   color: #BDBDBD;
+}
+
+.customerName{
+    font-size: 16px;
+    line-height: 120%;
+    color: #000000;
+}
+
+.feedback_text{
+    height: 309px;
+    width: 237px;
+    padding: 0px 13px 19px 16px;
+    color:#767474;
+    margin-top: 4px;
+}
+
+.button_p5{
+    margin-top: 50px;
+    margin-left: -760px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+/* footer styles */ /* footer styles */ /* footer styles */ /* footer styles */
+
+.footer{
+    background-color: #111115;
+    height: 442px;
+    position: relative;
+    margin-top: -140px;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: fit-content;
+    margin-left: 220px;
+    padding-top: 41px;
+    height: 350px;
+}
+
+.links_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+.button_footer{
+    border-radius: 5px;
+    margin: 0;
+    position: unset;
+}
+.menuFooter{
+    margin-left: 619px;
+    margin-top: -31px;
+    width: 362px;
+}
+
+.designedBy{
+    display: block;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-left: 1152px;
+    margin-top: -58px;
+}
+
+.subscribe_form{
+    display: flex;
+    position: absolute;
+    width: 380px;
+    flex-wrap: wrap;
+    margin-left: 1013px;
+    margin-top: -380px;
+}
+.subscribe{
+font-size: 24px;
+line-height: 120%;
+color: #FFFFFF
+}
+
+.email{
+    color: #BDBDBD;
+    width: 228px;
+    position:;
+    height: 42px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.subscribe_btn{
+    color:#4B9200;
+    background-color: #F1F3F2;
+    width: 129px;
+    height: 48px;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
