@@ -69,7 +69,7 @@ body{
   }
 
 .firstPage{
-background-image: url("../images/panda_bg.jpg");
+background-image: url("../assets/images/panda_bg.jpg");
 height: 390px;
 width: auto;
 }
@@ -111,7 +111,7 @@ color: #FFFFFF;
 
 .thirdPage{
     height: 1482px;
-    background-image: url("../images/p3_section4_pick-and-feed.jpg");
+    background-image: url("../assets/images/p3_section4_pick-and-feed.jpg");
     position: relative;
 }
 
