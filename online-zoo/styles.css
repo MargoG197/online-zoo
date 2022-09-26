@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto', sans-serif;
-    src: url(//PetStory-online/fonts/Roboto-Regular.ttf);
+    src: url(assets/fonts/Roboto-Regular.ttf);
 }
 
 html{
@@ -69,7 +69,7 @@ body{
   }
 
 .firstPage{
-background-image: url("../assets/images/Giant Panda.jpg");
+background-image: url("assets/images/Giant Panda.jpg");
 height: 780px;
 width: auto;
 }
@@ -237,7 +237,7 @@ width: 366px;
 
 .thirdPage{
     height: 1004px;
-    background-image: url("../assets/images/p3_section4_pick-and-feed.jpg");
+    background-image: url("assets/images/p3_section4_pick-and-feed.jpg");
     position: relative;
 }
 
